@@ -2,5 +2,50 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-  }
+
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+#rulesList {
+    list-style: none !important;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("assets/img/background-1.png") !important;
+    background-color: lightblue !important;
+}
+
+.main-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.memory-card {
+    width: calc(25% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+
+}
