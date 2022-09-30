@@ -57,7 +57,7 @@ body {
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-
+    backface-visibility: hidden;
 }
 
 .memory-card.flip {
