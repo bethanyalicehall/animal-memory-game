@@ -18,13 +18,12 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: url("assets/img/background-1.png") !important;
     background-color: lightblue !important;
 }
 
 .main-game {
-    width: 640px;
-    height: 640px;
+    width: 700px;
+    height: 700px;
     margin: auto;
     padding: 5%;
     display: flex;
@@ -38,7 +37,7 @@ body {
     height: calc(25% - 10px);
     margin: 5px;
     position: relative;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    /*box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);*/
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
@@ -54,7 +53,6 @@ body {
 .back {
     width: 100%;
     height: 100%;
-    padding: 20px;
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
