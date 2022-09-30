@@ -2,6 +2,7 @@
 
 
   const cards = document.querySelectorAll('.memory-card');
+  const fcards = document.querySelectorAll('.fact-card');
 
   let hasFlippedCard = false;
   let lockBoard = false;
@@ -76,10 +77,10 @@
 
   /////////////////////////////////////////////////////
 
-  const fcards = document.querySelectorAll('.fact-card');
+ 
 
-function flipCard() {
-  this.classList.toggle('flip');
-}
-
-fcards.forEach(fcard => fcard.addEventListener('click', flipCard));
+  function flipTheCard() {
+    this.classList.toggle('flip');
+  }
+  fcards.forEach(fcard => fcard.addEventListener('click', flipTheCard));
+  
